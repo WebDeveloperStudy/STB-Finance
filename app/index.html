@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+</head>
+
+<body> 
+   <!--Фон-->
+   <!--Шапка страницы-->
+    <header>
+        <!--Контейнер обертка--> 
+        <div class="content-wrap">
+            <!--Логотип-->
+            <div class="logo">
+                <img src="img/logo.png"/>
+            </div>
+            <!--Закоголовок-->
+            <div class="text">
+                <p>Денежные займы<br> под залог недвижимости</p>
+            </div>
+            <!--Звонок-->
+            <div class="phonecall-header">
+                <p>+7 (343) 200-30-30</p>
+               
+                <a href="#">
+                    <div class="button">
+                        <p>ЗАКАЗАТЬ ЗВОНОК</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header> 
+    <!--/-->
+    <!--Основной контент-->
+    
+    <!--Рассчет процентов и форма-->
+    <section class="first-screen">
+        <div class="bg">
+            <!--Контейнер обертка--> 
+            <div class="content-wrap">
+                <div class="text-f">
+                    <span>Денежные займы под залог недвижимости в Екатеринбурге</span>
+                </div> 
+                <!--Рассчет процента-->
+                <div class="calculate-wrap">
+                    <!--Калькулятор процента-->
+                    <div class="calculator">
+                        <!--Сумма кредита-->
+                        <div class="credit-summ">
+                            Сумма кредита
+                            <p><input type="text" class="amount" readonly> руб.</p>
+                            <div id="slider-range-min"></div>
+                        </div>
+                        <!--Срок кредита-->
+                        <div class="credit-time">
+                            На какой срок
+                            <p><input type="text" class="amount2" readonly> месяц<span id="month">a</span></p>
+                            <div id="slider-range-min2"></div>
+                        </div>
+                        <div class="credit-total">
+                            <p>
+                                За кредит <span class="amount-2">300000</span> руб. на <span class="amount2-2"></span> месяц<span id="month-1">a</span>
+                            </p>
+                            <p>
+                                Вам придеться отдать <span id="revenue">345000</span> рублей
+                            </p>
+                        </div>
+                    </div>
+                    <!--Бонусы-->
+                    <div class="bonuse">
+                        <div class="bonus-item">
+                            <img src="img/check.png">
+                            <p>Срок рассмотрения заявки - 1 день</p>
+                        </div>
+                        <div class="bonus-item">
+                            <img src="img/check.png">
+                            <p>Недвижимость остается в собственности у заемщика</p>
+                        </div>
+                        <div class="bonus-item">
+                            <img src="img/check.png">
+                            <p>Индивидуальный график</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Заявка на займ-->
+                <div class="application">
+                    <div class="form-wrap">
+                        <div class="text-h">       
+                            <p>Оставьте заявку на займ</p>
+                        </div> 
+                        <div class="text-2">
+                           <img src="img/plus.png"/>       
+                            <p>консультацию специалиста</p>
+                        </div>    
+                        <form>
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="text" placeholder="Ваш телефон" id="phone" name="phone">
+                            <button>ОСТАВИТЬ ЗАЯВКУ</button>
+                        </form>
+                        <div class="text-3">
+                            <p>Заявка не обязывает Вас к получению займа.<br>Вы можете отказаться в любой момент</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--Документы возможности отзывы-->
+    <section class="second-screen">
+        <!--Сертификаты-->
+        <div class="sertificate">
+            <div class="content-wrap">    
+                 <div class="text-srt">
+                     <p>НЕОБХОДИМЫЕ ДОКУМЕНТЫ ДЛЯ ПОЛУЧЕНИЯ ЗАЙМА ПОД ЗАЛОГ НЕДВИЖИМОСТИ</p>
+                 </div>
+                 <div class="sertificate-item">
+                     <p>Свидетельство</p>
+                     <img src="img/doc1.png"> 
+                 </div>
+                 <div class="sertificate-item">
+                     <p>Технический паспорт</p>
+                     <img src="img/doc2.png"> 
+                 </div>
+                 <div class="sertificate-item">
+                     <p>Согласие супруги(а)</p>
+                     <img src="img/doc3.png"> 
+                 </div>
+            </div>
+        </div>
+         <!--Возможности-->
+        <div class="opportunaties">
+            <div class="content-wrap">    
+                <div class="text-opp-h">
+                    <p>Выбирая нас, Вы получаете возможность</p>
+                </div>
+                <div class="opp-item">
+                    <div class="opp-img">
+                        <img src="img/f1.png">
+                    </div>
+                    <div class="opp-text"> 
+                        <h5>Быстрое рассмотрение заявки</h5>
+                        <p>Рассмотрим Вашу заявку в течении 30 минут после обращения  и подачи документов.</p>
+                    </div>
+                </div>
+                <div class="opp-item">
+                    <div class="opp-img">
+                        <img src="img/f2.png">
+                    </div>
+                    <div class="opp-text">
+                        <h5>Индивидуальный график погашения</h5>
+                        <p>Предоставляем каждому клиенту индивидуальный график платежей, а также возможность досрочного погашения</p> 
+                    </div> 
+                </div>
+                <div class="opp-item">
+                    <div class="opp-img">
+                        <img src="img/f3.png">
+                    </div>
+                    <div class="opp-text">
+                        <h5>Недвижимость остается в<br> собственности заемщика </h5>
+                        <p>Не просим генеральную довереность и не переписываем имущество на период погашения</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Отзывы фоторама-->
+        <div class="conteiner-f">
+           <div class="text">
+               <p>Отзывы наших клиентов</p>
+           </div>
+           <div class="fotorama" data-arrows="true" data-width="800px" data-height="150px" data-loop="true">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/img_0228_c1_copy12_200_200.jpg">
+                    </div>
+                    <div class="item-text">
+                        <p>Занимала деньги в "СТБ-финанс", в залог оставляла свою квартиру. Удобно, что здесь не нужны поручители, как в банке, да и вообще условия кредитования гораздо более лояльнее. Деньги в нужном размере я получила быстро, процент для меня был подобран индивидуальный</p>
+                   </div>
+               </div>
+               <div class="item">
+                    <div class="item-img">
+                        <img src="img/img_0228_c1_copy12_200_200.jpg" >
+                    </div>
+                    <div class="item-text">
+                        <p>Занимала деньги в "СТБ-финанс", в залог оставляла свою квартиру. Удобно, что здесь не нужны поручители, как в банке, да и вообще условия кредитования гораздо более лояльнее. Деньги в нужном размере я получила быстро, процент для меня был подобран индивидуальный</p>
+                   </div>
+               </div>
+               <div class="item">
+                    <div class="item-img">
+                        <img src="img/img_0228_c1_copy12_200_200.jpg">
+                    </div>
+                    <div class="item-text">
+                        <p>Занимала деньги в "СТБ-финанс", в залог оставляла свою квартиру. Удобно, что здесь не нужны поручители, как в банке, да и вообще условия кредитования гораздо более лояльнее. Деньги в нужном размере я получила быстро, процент для меня был подобран индивидуальный</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </section>
+    <!--Фон-->
+    <div class="bg-2">
+        <!--Форма заявки-->
+        <section class="third-screen">
+            <div class="content-wrap">
+                <div class="bonus-footer">
+                    <div class="text-h">                      
+                        <span>ОТПРАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ:</span>
+                    </div>
+                    <div class="content">
+                        <div class="item">
+                           <div class="img-wrap">
+                                <img src="img/cons1.png">
+                            </div>
+                            <div class="text">
+                                <p>Индивидуальные условия займа</p>
+                            </div>    
+                        </div>
+                        <div class="item">
+                           <div class="img-wrap">
+                                <img src="img/cons2.png">
+                            </div>
+                            <div class="text">
+                                <p>Консультация специалиста</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Форма заявки-->
+                <div class="application-form">        
+                    <div class="form-h">
+                        <p>ФОРМА ЗАЯВКИ</p>
+                    </div>
+                    <form>
+                        <div class="form-item">
+                            <label>Ваше имя</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-wrap">
+                            <div class="form-item">
+                                <label>Ваш телефон</label>
+                                <input type="text" id="phone-2">
+                            </div>
+                            <button>ОСТАВИТЬ ЗАЯВКУ</button>
+                            <div class="text-3">
+                                <p>Заявка не обязывает Вас к получению займа.<br>Вы можете отказаться в любой момент</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--/-->
+
+	<!--Подключение скриптов и стилей-->
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<script src="/bower_components/jquery/jquery.js"></script>
+	<link  href="/bower_components/fotorama/fotorama.css" rel="stylesheet">
+    <script src="/bower_components/fotorama/fotorama.js"></script>
+    <script src="libs/jquery-ui/ui.js"></script>
+    <link rel="stylesheet" href="libs/jquery-ui/ui.css">
+    <script src="libs/jq-mask/mask.js"></script>
+    
+	<!--/-->
+</body>
+</html>
